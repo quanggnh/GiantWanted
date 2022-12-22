@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - Hostage
+  - Enemy
+  - Target
+  - Ground
+  - Building
+  - Bound
+  - Ragdoll
+  - Flame
+  - Water
+  - FlyEnemy
+  - Apartment
+  - Brick
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Hostage
+  - Enemy
+  - Hideout
+  - Bound
+  - Building
+  - Ragdoll
+  - Bullet
+  - HP
+  - Part
+  - ThrownObj
+  - Brick
+  - Core
+  - Armor
+  - Sky
+  - Apartement
+  - HostageRagdoll
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

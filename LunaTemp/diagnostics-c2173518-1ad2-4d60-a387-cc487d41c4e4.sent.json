@@ -1,0 +1,130 @@
+{
+  "BuildID": "c2173518-1ad2-4d60-a387-cc487d41c4e4",
+  "Command": "project:deploy",
+  "ProjectID": "3c8c6a4f-ab91-4177-8cf8-4821d5d9b1ce",
+  "ProjectStateHash": "d101ad987f74194f020c470d153f76cc444dee9fa5c7d7ec347c71ab5d64dbff",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1670842999242,
+  "EndTime": 1670843033113,
+  "PlaygroundUserID": 2611,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "playground",
+  "UnityVersion": "2019.4.33f1",
+  "LunaVersion": "4.2.0",
+  "LogCount": 5,
+  "Logs": [
+    {
+      "LogID": "745bfa1b-affc-41fc-bdb0-573f5f9a860d",
+      "Order": 4,
+      "Timestamp": 1670843033439,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "4cebb0e5-7a1e-49ac-bebf-9b7c1279aa26",
+      "Order": 4,
+      "Timestamp": 1670843033439,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "faf6c48e-9b56-431b-b0cb-7695f96bb5af",
+      "Order": 0,
+      "Timestamp": 1670843013582,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1007",
+      "Description": "Extensive use of mesh colliders",
+      "Details": [
+        "Usage of mesh colliders has negative effect on performance. You can use primitive colliders instead."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "ce0a9223-d6f8-4a6e-b36f-175e02424634",
+      "Order": 1,
+      "Timestamp": 1670843013582,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1016",
+      "Description": "Extensive usage of Rigidbody Component",
+      "Details": [
+        "There is extensive usage of the Rigidbody component.\nExcessive usage of any component can be detrimental to performance on lower and in some cases higher end devices, consider reducing the amount the component is used.\nRecommended count: 10, current count 282."
+      ],
+      "DescriptionValues": [
+        "Rigidbody"
+      ],
+      "DetailsValues": [
+        "Rigidbody",
+        "10",
+        "282"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "3d08ffd3-8680-4f29-880d-50b7a2904a14",
+      "Order": 2,
+      "Timestamp": 1670843013583,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1010",
+      "Description": "Looks like a collider was scaled, this might affect performance.",
+      "Details": [
+        "Plane",
+        "Plane (1)"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 2,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}
